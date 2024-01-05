@@ -47,7 +47,7 @@ function makesound(key)
                 var crash =new Audio("./sounds/crash.mp3");
                 crash.play();
                 break;
-        case "K":
+        case "k":
                 var bass =new Audio("./sounds/kick-bass.mp3");
                 bass.play();
                 break;
