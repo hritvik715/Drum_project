@@ -6,6 +6,7 @@ for(var i=0 ; i<numberOfDrumButtons; i++)
     document.querySelectorAll(".drum")[i].addEventListener("click",function() 
     {
         var buttonInnerHTML = this.innerHTML;//yha first iteration me (H) dega 2nd mey (R) dega and so on....
+        console.log(buttonInnerHTML);
         makesound(buttonInnerHTML);
 
     });      
